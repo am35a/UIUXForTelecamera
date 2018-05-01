@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>www.telecamera.ru/personal/profile/ Регистрационная информация </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <!-- Latest compiled and minified JavaScript >
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script-->
+
+        <link href="https://fonts.googleapis.com/css?family=Exo+2:300,400,500,600,700&amp;subset=cyrillic,latin-ext" rel="stylesheet">
+        <link href="global.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-xs-12 visible-md visible-lg">
+                    Боковое меню...
+                </div>
+                <div class="col-md-9 col-xs-12">
+                    <ul id="nav" class="nav nav-tabs nav-justified">
+                        <li role="presentation"><a class="ellipsis" href="#">Регистрационная информация</a></li>
+                        <li role="presentation" class="active"><a class="ellipsis" href="#">Личные данные</a></li>
+                        <li role="presentation"><a class="ellipsis" href="#">Информация о работе</a></li>
+                        <li role="presentation"><a class="ellipsis" href="#">Профиль форума</a></li>
+                    </ul>
+
+                    <!-- Регистрационная информация -->
+                    <section class="hidden">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <span>&nbsp;</span>
+                                <div class="visible-xs">
+                                    <h3>Регистрационная информация</h3>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6 text-right">
+                                <b>Дата обновления:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                00.00.0000 00:00:00
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Последняя авторизация:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                00.00.0000 00:00:00
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Обращение:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control" name="TITLE" value="" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Имя:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control" name="NAME" maxlength="50" value="" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Фамилия:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control" name="LAST_NAME" maxlength="50" value="" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Отчество:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control" name="SECOND_NAME" maxlength="50" value="" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>E-Mail:<span class="starrequired">*</span></b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control" name="EMAIL" maxlength="50" value="" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Логин:<span class="starrequired"></span></b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control" name="LOGIN" maxlength="50" value="" type="text">
+                                <span class="text-info">
+                                    <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> Логин должен быть не менее 3 символов длиной.
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Новый пароль:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control bx-auth-input" name="NEW_PASSWORD" maxlength="50" value="" autocomplete="off" type="password">
+                                <span class="text-info">
+                                    <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> Пароль должен быть не менее 6 символов длиной.
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Подтверждение нового пароля:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control" name="NEW_PASSWORD_CONFIRM" maxlength="50" value="" autocomplete="off" type="password">
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Личные данные -->
+                    <section>
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <span>&nbsp;</span>
+                                <div class="visible-xs">
+                                    <h3>Личные данные</h3>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Профессия:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control" name="PERSONAL_PROFESSION" maxlength="255" value="" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>WWW-страница:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control" name="PERSONAL_WWW" maxlength="255" value="" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>ICQ:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control" name="PERSONAL_ICQ" maxlength="255" value="" type="text"></td>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Пол:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <select name="PERSONAL_GENDER" class="form-control">
+                                    <option value="">(неизвестно)</option>
+                                    <option value="M">Мужской</option>
+                                    <option value="F">Женский</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Дата рождения:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <!--input id="PERSONAL_BIRTHDAY" name="PERSONAL_BIRTHDAY" value="" class="form-control" style="display: inline-block;" type="text"><img src="/bitrix/js/main/core/images/calendar-icon.gif" alt="Выбрать дату в календаре" class="calendar-icon" onclick="BX.calendar({node:this, field:'PERSONAL_BIRTHDAY', form: 'form1', bTime: false, currentTime: '1493016168', bHideTime: false});" onmouseover="BX.addClass(this, 'calendar-icon-hover');" onmouseout="BX.removeClass(this, 'calendar-icon-hover');" border="0"-->
+                                <div class="input-group data">
+                                    <input type="text" class="form-control" placeholder="формат: ДД.ММ.ГГГГ" aria-describedby="basic-addon2">
+                                    <div class="input-group-btn">
+                                        <a class="btn btn-default" type="button"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Фотография:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input name="PERSONAL_PHOTO" class="typefile" size="20" type="file"><span class="bx-input-file-desc"></span>
+                            </div>
+                        </div>
+                        <h4>Телефоны</h4>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Телефон:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control" name="PERSONAL_PHONE" maxlength="255" value="" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Факс:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control" name="PERSONAL_FAX" maxlength="255" value="" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Мобильный:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control" name="PERSONAL_MOBILE" maxlength="255" value="" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Пейджер:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control" name="PERSONAL_PAGER" maxlength="255" value="" type="text">
+                            </div>
+                        </div>
+                        <h4>Почтовый адрес</h4>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Страна:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <select class="typeselect form-control" name="PERSONAL_COUNTRY" id="PERSONAL_COUNTRY" style="display: inline-block;"><option value="">(неизвестно)</option><option value="16">Австралия</option><option value="17">Австрия</option><option value="2">Азербайджан</option><option value="18">Албания</option><option value="19">Алжир</option><option value="232">Американские Виргинские острова</option><option value="182">Ангилья</option><option value="20">Ангола</option><option value="146">Андорра</option><option value="183">Антарктида</option><option value="184">Антигуа и Барбуда</option><option value="210">Антильские острова</option><option value="21">Арабские Эмираты</option><option value="22">Аргентина</option><option value="3">Армения</option><option value="23">Аруба</option><option value="24">Афганистан</option><option value="25">Багамские острова</option><option value="26">Бангладеш</option><option value="27">Барбадос</option><option value="145">Бахрейн</option><option value="4">Беларусь</option><option value="147">Белиз</option><option value="28">Бельгия</option><option value="29">Бенин</option><option value="30">Бермудские острова</option><option value="31">Болгария</option><option value="32">Боливия</option><option value="33">Босния и Герцеговина</option><option value="149">Ботсвана</option><option value="34">Бразилия</option><option value="187">Британские Виргинские острова</option><option value="186">Британские территории в Индийском Океане</option><option value="35">Бруней</option><option value="150">Буркина Фасо</option><option value="151">Бурунди</option><option value="148">Бутан</option><option value="233">Вануату</option><option value="234">Ватикан</option><option value="36">Великобритания</option><option value="37">Венгрия</option><option value="38">Венесуэлла</option><option value="156">Восточный Тимор</option><option value="39">Вьетнам</option><option value="161">Габон</option><option value="40">Гаити</option><option value="41">Гамбия</option><option value="162">Гана</option><option value="43">Гваделупа</option><option value="44">Гватемала</option><option value="196">Гвиана</option><option value="45">Гвинея</option><option value="163">Гвинея-Биссау</option><option value="46">Германия</option><option value="47">Гибралтар</option><option value="42">Гондурас</option><option value="49">Гонконг</option><option value="50">Гренада</option><option value="51">Гренландия</option><option value="52">Греция</option><option value="5">Грузия</option><option value="53">Гуана</option><option value="54">Дания</option><option value="57">Демократическая республика Конго</option><option value="155">Джибути</option><option value="193">Доминика</option><option value="55">Доминиканская Республика</option><option value="56">Египет</option><option value="58">Замбия</option><option value="180">Западная Сахара</option><option value="59">Зимбабве</option><option value="60">Израиль</option><option value="61">Индия</option><option value="62">Индонезия</option><option value="63">Иордания</option><option value="64">Ирак</option><option value="65">Иран</option><option value="66">Ирландия</option><option value="67">Исландия</option><option value="68">Испания</option><option value="69">Италия</option><option value="70">Йемен</option><option value="189">Кабо-Верде</option><option value="6">Казахстан</option><option value="71">Каймановы острова</option><option value="78">Камбоджа</option><option value="72">Камерун</option><option value="73">Канада</option><option value="172">Катар</option><option value="74">Кения</option><option value="75">Кипр</option><option value="7">Киргизия</option><option value="200">Кирибати</option><option value="76">Китай</option><option value="191">Кокосовые острова</option><option value="77">Колумбия</option><option value="153">Коморос</option><option value="79">Конго</option><option value="164">Корея (Северная)</option><option value="80">Корея (Южная)</option><option value="81">Коста Рика</option><option value="154">Кот-Д`ивуар</option><option value="82">Куба</option><option value="83">Кувейт</option><option value="201">Лаос</option><option value="8">Латвия</option><option value="166">Лесото</option><option value="84">Либерия</option><option value="165">Ливан</option><option value="167">Ливия</option><option value="9">Литва</option><option value="85">Лихтенштейн</option><option value="86">Люксембург</option><option value="205">Маврикий</option><option value="87">Мавритания</option><option value="88">Мадагаскар</option><option value="206">Майотта</option><option value="202">Макао</option><option value="89">Македония</option><option value="203">Малави</option><option value="90">Малайзия</option><option value="91">Мали</option><option value="168">Мальдивы</option><option value="92">Мальта</option><option value="204">Мартиника</option><option value="169">Маршалские острова</option><option value="93">Мексика</option><option value="207">Микронезия</option><option value="94">Мозамбик</option><option value="10">Молдавия</option><option value="95">Монако</option><option value="96">Монголия</option><option value="208">Монтсеррат</option><option value="97">Морокко</option><option value="188">Мьянма</option><option value="98">Намибия</option><option value="209">Науру</option><option value="99">Непал</option><option value="170">Нигер</option><option value="100">Нигерия</option><option value="48">Нидерланды</option><option value="102">Никарагуа</option><option value="212">Ниуэ</option><option value="103">Новая Зеландия</option><option value="211">Новая Каледония</option><option value="104">Норвегия</option><option value="171">Оман</option><option value="185">Остров Буве</option><option value="213">Остров Норфолк</option><option value="216">Остров Питкэрн</option><option value="190">Остров Рождества</option><option value="218">Остров Св.Елены</option><option value="192">Острова Кука</option><option value="221">Острова Сен-Пьер и Микелон</option><option value="219">Острова Сент-Киттс и Невис</option><option value="230">Острова Тёркс и Кайкос</option><option value="235">Острова Уоллис и Футуна</option><option value="199">Острова Херд и Макдоналд</option><option value="226">Острова Шпицберген и Ян-Майен</option><option value="105">Пакистан</option><option value="214">Палау</option><option value="215">Палестина</option><option value="106">Панама</option><option value="107">Папуа Новая Гвинея</option><option value="108">Парагвай</option><option value="109">Перу</option><option value="110">Польша</option><option value="111">Португалия</option><option value="112">Пуэрто Рико</option><option value="217">Реюньон</option><option selected="" value="1">Россия</option><option value="173">Руанда</option><option value="113">Румыния</option><option value="122">США</option><option value="174">Самоа</option><option value="223">Сан-Марино</option><option value="220">Санта-Лючия</option><option value="114">Саудовская Аравия</option><option value="178">Свазиленд</option><option value="175">Сейшеллы</option><option value="115">Сенегал</option><option value="222">Сент-Винсент и Гренадины</option><option value="142">Сербия</option><option value="116">Сингапур</option><option value="117">Сирия</option><option value="118">Словакия</option><option value="119">Словения</option><option value="224">Соломоновы острова</option><option value="120">Сомали</option><option value="121">Судан</option><option value="177">Суринам</option><option value="176">Сьерра-Леоне</option><option value="11">Таджикистан</option><option value="124">Таиланд</option><option value="123">Тайвань</option><option value="179">Танзания</option><option value="227">Того</option><option value="228">Токелау</option><option value="229">Тонга</option><option value="125">Тринидад и Тобаго</option><option value="231">Тувалу</option><option value="126">Тунис</option><option value="12">Туркменистан</option><option value="127">Турция</option><option value="128">Уганда</option><option value="13">Узбекистан</option><option value="14">Украина</option><option value="129">Уругвай</option><option value="195">Фарерские острова</option><option value="160">Фижи</option><option value="130">Филиппины</option><option value="131">Финляндия</option><option value="194">Фолклендские острова</option><option value="132">Франция</option><option value="197">Французская Полинезия</option><option value="181">Хорватия</option><option value="152">Центральноафриканская Республика</option><option value="133">Чад</option><option value="236">Черногория</option><option value="134">Чехия</option><option value="135">Чили</option><option value="136">Швейцария</option><option value="137">Швеция</option><option value="138">Шри-Ланка</option><option value="139">Эквадор</option><option value="158">Экваториальная Гвинея</option><option value="157">Эль Сальвадор</option><option value="159">Эритрея</option><option value="15">Эстония</option><option value="140">Эфиопия</option><option value="141">ЮАР</option><option value="225">Южная Георгия и Южные Сандвичевы острова</option><option value="198">Южные Французские территории</option><option value="143">Ямайка</option><option value="144">Япония</option></select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Область / край:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control" name="PERSONAL_STATE" maxlength="255" value="Санкт-Петербург г" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Город:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control" name="PERSONAL_CITY" maxlength="255" value="Санкт-Петербург" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Почтовый индекс:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control" name="PERSONAL_ZIP" maxlength="255" value="" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Улица, дом:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <textarea class="form-control" cols="30" rows="5" name="PERSONAL_STREET"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Почтовый ящик:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control" name="PERSONAL_MAILBOX" maxlength="255" value="" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Дополнительные заметки:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <td><textarea class="form-control" cols="30" rows="5" name="PERSONAL_NOTES"></textarea>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Информация о работе -->
+                    <section class="hidden">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <span>&nbsp;</span>
+                                <div class="visible-xs">
+                                    <h3>Информация о работе</h3>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Наименование компании:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control" name="WORK_COMPANY" maxlength="255" value="" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>WWW-страница:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control" name="WORK_WWW" maxlength="255" value="" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Департамент / Отдел:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control" name="WORK_DEPARTMENT" maxlength="255" value="" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Должность:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control" name="WORK_POSITION" maxlength="255" value="" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Направления деятельности:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <textarea class="form-control" cols="30" rows="5" name="WORK_PROFILE"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Логотип компании:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input name="WORK_LOGO" class="typefile" size="20" type="file"><span class="bx-input-file-desc"></span>
+                            </div>
+                        </div>
+                        <h4>Телефоны</h4>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Телефон:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control" name="WORK_PHONE" maxlength="255" value="" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Факс:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control" name="WORK_FAX" maxlength="255" value="" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Пейджер:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control" name="WORK_PAGER" maxlength="255" value="" type="text">
+                            </div>
+                        </div>
+                        <h4>Почтовый адрес</h4>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Страна:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <select class="typeselect form-control" name="WORK_COUNTRY" id="WORK_COUNTRY" style="display: inline-block;"><option value="">(неизвестно)</option><option value="16">Австралия</option><option value="17">Австрия</option><option value="2">Азербайджан</option><option value="18">Албания</option><option value="19">Алжир</option><option value="232">Американские Виргинские острова</option><option value="182">Ангилья</option><option value="20">Ангола</option><option value="146">Андорра</option><option value="183">Антарктида</option><option value="184">Антигуа и Барбуда</option><option value="210">Антильские острова</option><option value="21">Арабские Эмираты</option><option value="22">Аргентина</option><option value="3">Армения</option><option value="23">Аруба</option><option value="24">Афганистан</option><option value="25">Багамские острова</option><option value="26">Бангладеш</option><option value="27">Барбадос</option><option value="145">Бахрейн</option><option value="4">Беларусь</option><option value="147">Белиз</option><option value="28">Бельгия</option><option value="29">Бенин</option><option value="30">Бермудские острова</option><option value="31">Болгария</option><option value="32">Боливия</option><option value="33">Босния и Герцеговина</option><option value="149">Ботсвана</option><option value="34">Бразилия</option><option value="187">Британские Виргинские острова</option><option value="186">Британские территории в Индийском Океане</option><option value="35">Бруней</option><option value="150">Буркина Фасо</option><option value="151">Бурунди</option><option value="148">Бутан</option><option value="233">Вануату</option><option value="234">Ватикан</option><option value="36">Великобритания</option><option value="37">Венгрия</option><option value="38">Венесуэлла</option><option value="156">Восточный Тимор</option><option value="39">Вьетнам</option><option value="161">Габон</option><option value="40">Гаити</option><option value="41">Гамбия</option><option value="162">Гана</option><option value="43">Гваделупа</option><option value="44">Гватемала</option><option value="196">Гвиана</option><option value="45">Гвинея</option><option value="163">Гвинея-Биссау</option><option value="46">Германия</option><option value="47">Гибралтар</option><option value="42">Гондурас</option><option value="49">Гонконг</option><option value="50">Гренада</option><option value="51">Гренландия</option><option value="52">Греция</option><option value="5">Грузия</option><option value="53">Гуана</option><option value="54">Дания</option><option value="57">Демократическая республика Конго</option><option value="155">Джибути</option><option value="193">Доминика</option><option value="55">Доминиканская Республика</option><option value="56">Египет</option><option value="58">Замбия</option><option value="180">Западная Сахара</option><option value="59">Зимбабве</option><option value="60">Израиль</option><option value="61">Индия</option><option value="62">Индонезия</option><option value="63">Иордания</option><option value="64">Ирак</option><option value="65">Иран</option><option value="66">Ирландия</option><option value="67">Исландия</option><option value="68">Испания</option><option value="69">Италия</option><option value="70">Йемен</option><option value="189">Кабо-Верде</option><option value="6">Казахстан</option><option value="71">Каймановы острова</option><option value="78">Камбоджа</option><option value="72">Камерун</option><option value="73">Канада</option><option value="172">Катар</option><option value="74">Кения</option><option value="75">Кипр</option><option value="7">Киргизия</option><option value="200">Кирибати</option><option value="76">Китай</option><option value="191">Кокосовые острова</option><option value="77">Колумбия</option><option value="153">Коморос</option><option value="79">Конго</option><option value="164">Корея (Северная)</option><option value="80">Корея (Южная)</option><option value="81">Коста Рика</option><option value="154">Кот-Д`ивуар</option><option value="82">Куба</option><option value="83">Кувейт</option><option value="201">Лаос</option><option value="8">Латвия</option><option value="166">Лесото</option><option value="84">Либерия</option><option value="165">Ливан</option><option value="167">Ливия</option><option value="9">Литва</option><option value="85">Лихтенштейн</option><option value="86">Люксембург</option><option value="205">Маврикий</option><option value="87">Мавритания</option><option value="88">Мадагаскар</option><option value="206">Майотта</option><option value="202">Макао</option><option value="89">Македония</option><option value="203">Малави</option><option value="90">Малайзия</option><option value="91">Мали</option><option value="168">Мальдивы</option><option value="92">Мальта</option><option value="204">Мартиника</option><option value="169">Маршалские острова</option><option value="93">Мексика</option><option value="207">Микронезия</option><option value="94">Мозамбик</option><option value="10">Молдавия</option><option value="95">Монако</option><option value="96">Монголия</option><option value="208">Монтсеррат</option><option value="97">Морокко</option><option value="188">Мьянма</option><option value="98">Намибия</option><option value="209">Науру</option><option value="99">Непал</option><option value="170">Нигер</option><option value="100">Нигерия</option><option value="48">Нидерланды</option><option value="102">Никарагуа</option><option value="212">Ниуэ</option><option value="103">Новая Зеландия</option><option value="211">Новая Каледония</option><option value="104">Норвегия</option><option value="171">Оман</option><option value="185">Остров Буве</option><option value="213">Остров Норфолк</option><option value="216">Остров Питкэрн</option><option value="190">Остров Рождества</option><option value="218">Остров Св.Елены</option><option value="192">Острова Кука</option><option value="221">Острова Сен-Пьер и Микелон</option><option value="219">Острова Сент-Киттс и Невис</option><option value="230">Острова Тёркс и Кайкос</option><option value="235">Острова Уоллис и Футуна</option><option value="199">Острова Херд и Макдоналд</option><option value="226">Острова Шпицберген и Ян-Майен</option><option value="105">Пакистан</option><option value="214">Палау</option><option value="215">Палестина</option><option value="106">Панама</option><option value="107">Папуа Новая Гвинея</option><option value="108">Парагвай</option><option value="109">Перу</option><option value="110">Польша</option><option value="111">Португалия</option><option value="112">Пуэрто Рико</option><option value="217">Реюньон</option><option value="1">Россия</option><option value="173">Руанда</option><option value="113">Румыния</option><option value="122">США</option><option value="174">Самоа</option><option value="223">Сан-Марино</option><option value="220">Санта-Лючия</option><option value="114">Саудовская Аравия</option><option value="178">Свазиленд</option><option value="175">Сейшеллы</option><option value="115">Сенегал</option><option value="222">Сент-Винсент и Гренадины</option><option value="142">Сербия</option><option value="116">Сингапур</option><option value="117">Сирия</option><option value="118">Словакия</option><option value="119">Словения</option><option value="224">Соломоновы острова</option><option value="120">Сомали</option><option value="121">Судан</option><option value="177">Суринам</option><option value="176">Сьерра-Леоне</option><option value="11">Таджикистан</option><option value="124">Таиланд</option><option value="123">Тайвань</option><option value="179">Танзания</option><option value="227">Того</option><option value="228">Токелау</option><option value="229">Тонга</option><option value="125">Тринидад и Тобаго</option><option value="231">Тувалу</option><option value="126">Тунис</option><option value="12">Туркменистан</option><option value="127">Турция</option><option value="128">Уганда</option><option value="13">Узбекистан</option><option value="14">Украина</option><option value="129">Уругвай</option><option value="195">Фарерские острова</option><option value="160">Фижи</option><option value="130">Филиппины</option><option value="131">Финляндия</option><option value="194">Фолклендские острова</option><option value="132">Франция</option><option value="197">Французская Полинезия</option><option value="181">Хорватия</option><option value="152">Центральноафриканская Республика</option><option value="133">Чад</option><option value="236">Черногория</option><option value="134">Чехия</option><option value="135">Чили</option><option value="136">Швейцария</option><option value="137">Швеция</option><option value="138">Шри-Ланка</option><option value="139">Эквадор</option><option value="158">Экваториальная Гвинея</option><option value="157">Эль Сальвадор</option><option value="159">Эритрея</option><option value="15">Эстония</option><option value="140">Эфиопия</option><option value="141">ЮАР</option><option value="225">Южная Георгия и Южные Сандвичевы острова</option><option value="198">Южные Французские территории</option><option value="143">Ямайка</option><option value="144">Япония</option></select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Область / край:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control" name="WORK_STATE" maxlength="255" value="" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Город:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control" name="WORK_CITY" maxlength="255" value="" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Почтовый индекс:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control" name="WORK_ZIP" maxlength="255" value="" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Улица, дом:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <textarea class="form-control" cols="30" rows="5" name="WORK_STREET"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Почтовый ящик:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control" name="WORK_MAILBOX" maxlength="255" value="" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Дополнительные заметки:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <textarea class="form-control" cols="30" rows="5" name="WORK_NOTES"></textarea>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Профиль форума -->
+                    <section class="hidden">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <span>&nbsp;</span>
+                                <div class="visible-xs">
+                                    <h3>Профиль форума</h3>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Показывать имя:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input name="forum_SHOW_NAME" value="Y" checked="checked" type="checkbox">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Пояснение:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input class="form-control" name="forum_DESCRIPTION" maxlength="255" value="" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Интересы:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <textarea class="form-control" cols="30" rows="5" name="forum_INTERESTS"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Подпись:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <textarea class="form-control" cols="30" rows="5" name="forum_SIGNATURE"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-right">
+                                <b>Аватар:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <input name="forum_AVATAR" class="typefile" size="20" type="file"><span class="bx-input-file-desc"></span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <hr>
+                    <p class="text-center">
+                        <input class="btn btn-success" name="save" value="Сохранить" type="submit">
+                        <input class="btn btn-default" value="Сбросить" type="reset">
+                    </p>
+                    <div class="visible-xs text-center">
+                        <a class="btn" href="#nav" role="button"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> Вверх</a>
+                    </div>
+                    <div>
+                        <hr>
+                        <p>Вы можете связать свой профиль с профилями в социальных сетях и сервисах:</p>
+                        <div class="">
+                            Место для кнопок...
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </body>
+
+</html>

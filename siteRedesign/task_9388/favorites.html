@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Страница товара</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="http://www.telecamera.ru/bitrix/css/main/bootstrap.min.css">
+        <!-- Optional theme -->
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+        <!-- Latest compiled and minified JavaScript -->
+        <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+        <link href="https://fonts.googleapis.com/css?family=Exo+2:300,400,500,600,700&amp;subset=cyrillic,latin-ext" rel="stylesheet">
+        <link href="global.css" rel="stylesheet">
+    </head>
+    <body>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-xs-12 visible-md visible-lg">
+                    Боковое меню...
+                </div>
+                <div class="col-md-9 col-xs-12">
+                    <div class="btn-toolbar">
+                        <h2 class="pull-left"><a class="disabled" href="#" title="Избранное">Избранное</a></h2>
+                        <h2 class="pull-right"><a href="properties.html" title="Настройки"><span class="hidden">Настройки</span> <span class="glyphicon glyphicon-cog" aria-hidden="true"></span></a></h2>
+                    </div>
+                    <hr class="margin-t-0">
+                    <section class="favorites">
+                        <nav class="text-center">
+                            <div class="btn-group btn-group-sm margin-b-10 margin-r-10">
+                                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><span class="margin-l-10 text-info">62</span></button>
+                            </div>
+                            <div class="btn-group btn-group-sm margin-b-10 margin-r-10">
+                                <button type="button" class="btn btn-default">Домофоны<span class="margin-l-10 text-info">1</span></button>
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="caret"></span> <span class="sr-only">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">VIZIT (ВИЗИТ) <small class="text-info margin-l-10">1</small></a></li>
+                                </ul>
+                            </div>
+                            <div class="btn-group btn-group-sm margin-b-10 margin-r-10">
+                                <button type="button" class="btn btn-default">СКУД<span class="margin-l-10 text-info">42</span></button>
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="caret"></span> <span class="sr-only">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Турникеты <small class="text-info margin-l-10">11</small></a></li>
+                                    <li><a href="#">Доводчики <small class="text-info margin-l-10">2</small></a></li>
+                                    <li><a href="#">Парковочные барьеры <small class="text-info margin-l-10">29</small></a></li>
+                                </ul>
+                            </div>
+                            <div class="btn-group btn-group-sm margin-b-10 margin-r-10 active">
+                                <button type="button" class="btn" disabled>GSM-сигнализация<span class="margin-l-10 text-info">15</span></button>
+                                <button type="button" class="btn dropdown-toggle" disabled data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="caret"></span> <span class="sr-only">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Беспроводные сирены <small class="text-info margin-l-10">8</small></a></li>
+                                    <li><a href="#">Брелоки <small class="text-info margin-l-10">7</small></a></li>
+                                </ul>
+                            </div>
+                            <div class="btn-group btn-group-sm margin-b-10 margin-r-10">
+                                <button type="button" class="btn btn-default">Аудио/Видео<span class="margin-l-10 text-info">4</span></button>
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="caret"></span> <span class="sr-only">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Звуковые карты <small class="text-info margin-l-10">1</small></a></li>
+                                    <li><a href="#">Кабели <small class="text-info margin-l-10">2</small></a></li>
+                                    <li><a href="#">Модуляторы <small class="text-info margin-l-10">1</small></a></li>
+                                </ul>
+                            </div>
+                            <!--div class="checkbox margin-е-0"> место для фильтров, в текущей реализации не ставить
+                                <hr class="margin-t-0 margin-b-10" style="width:75%;">
+                                <label class="margin-l-10 margin-r-10">
+                                    <input type="checkbox" checked> <span class="text-muted">Спб Нарвская</span> <span class="text-success">Спб Нарвская</span>
+                                </label>
+                                <label class="margin-l-10 margin-r-10">
+                                    <input type="checkbox"> <span class="text-muted">Спб Комендантский</span> <span class="text-success">Спб Комендантский</span>
+                                </label>
+                                <label class="margin-l-10 margin-r-10">
+                                    <input type="checkbox"> <span class="text-muted">Мск Нагатинская</span> <span class="text-success">Мск Нагатинская</span>
+                                </label>
+                            </div-->
+                        </nav>
+                        <h4>GSM-сигнализация</h4>
+                        <ul class="nav nav-pills nav-pills-level-2">
+                            <li role="presentation"><a href="#" class="btn-sm">Все товары<span class="margin-l-10">15</span></a></li>
+                            <li role="presentation" class="disabled"><a href="#" class="btn-sm">Беспроводные сирены<span class="margin-l-10">8</span></a></li>
+                            <li role="presentation"><a href="#" class="btn-sm">Брелоки<span class="margin-l-10">7</span></a></li>
+                        </ul>
+                        <nav class="text-center" aria-label="...">
+                            <div>Товаров 0 - 0 из 0</div>
+                            <ul class="pagination pagination-sm margin-t-10">
+                                <li class="disabled"><a aria-label="Previous"><span aria-hidden="true">Начало</span></a></li>
+                                <li class="disabled"><a aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+                                <li class="active"><a>1</a></li>
+                                <li><a href="">2</a></li>
+                            <li><a aria-label="Next" href=""><span aria-hidden="true">»</span></a></li>
+                            <li><a aria-label="Next" href=""><span aria-hidden="true">Конец</span></a></li>
+                            </ul>
+                        </nav>
+                        <div class="row row-cards">
+                            <div class="col-xs-6 col-sm-4">
+                                <div class="thumbnail thumbnail-card thumbnail-success">
+                                    <div class="btn-fav-remove" title="Удалить из избранного">
+                                        <a class="btn btn-danger" href="#"><big class="glyphicon glyphicon-remove-sign" aria-hidden="true"></big></a>
+                                    </div>
+                                    <img class="img-rounded" alt="" src="https://images.cdn.tetravaal.org/resize_cache/1171671/efd17cf952fbad55a2259373e91af812/iblock/db1/db1bd14ce9a70f4204757f543602e0b2/9999efa1_2fe3_11e7_8272_7cd30a148dd3_9999efaa_2fe3_11e7_8272_7cd30a148dd3.jpeg" data-holder-rendered="true">
+                                    <div class="caption">
+                                        <h5><a href="#"><b>Название изделия NNN 0000-00</b></a></h5>
+                                        <span>Наличие:</span>
+                                        <p class="margin-b-10 avaliable-list">
+                                            <small class="text-success margin-l-10"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Спб Нарвская</small>
+                                            <small class="text-success margin-l-10"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Мск Нагатинская</small>
+                                        </p>
+                                        <div class="input-group input-group-sm margin-b-0">
+                                            <span class="input-group-btn">
+                                                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button>
+                                            </span>
+                                            <input type="text" class="form-control text-center padding-l-0 padding-r-0" value="1 шт.">
+                                            <span class="input-group-btn">
+                                                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+                                                <a href="#" class="btn btn-success btn-sm" role="button" title="Купить"><span class=" glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> <span class="hidden-sm hidden-md">В корзину</span></a>
+                                            </span>
+                                        </div>
+                                        <hr class="margin-t-10 margin-b-0">
+                                        <div>Стоимость: 000 &#8381; <small class="margin-l-10"><del class="text-muted">000 &#8381;</del></small></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-4">
+                                <div class="thumbnail thumbnail-card thumbnail-success">
+                                    <div class="btn-fav-remove" title="Удалить из избранного">
+                                        <a class="btn btn-danger" href="#"><big class="glyphicon glyphicon-remove-sign" aria-hidden="true"></big></a>
+                                    </div>
+                                    <img class="img-rounded" alt="" src="https://images.cdn.tetravaal.org/resize_cache/1166482/efd17cf952fbad55a2259373e91af812/iblock/e49/e49087181fe0821d23782de75fbc042a/0124fe02_8937_11e6_8267_7cd30a148dd3_0124fe14_8937_11e6_8267_7cd30a148dd3.png" data-holder-rendered="true">
+                                    <div class="caption">
+                                        <h5><a href="#"><b>AHD видеорегистратор 4-канальный гибридный TANTOS TSr-HV0411 Forward </b></a></h5>
+                                        <span>Наличие:</span>
+                                        <p class="margin-b-10 avaliable-list">
+                                            <small class="text-success margin-l-10"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Спб Нарвская</small>
+                                            <small class="text-muted margin-l-10"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Мск Нагатинская</small>
+                                        </p>
+                                        <div class="input-group input-group-sm margin-b-0">
+                                            <span class="input-group-btn">
+                                                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button>
+                                            </span>
+                                            <input type="text" class="form-control text-center padding-l-0 padding-r-0" value="1 шт.">
+                                            <span class="input-group-btn">
+                                                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+                                                <a href="#" class="btn btn-success btn-sm" role="button" title="Купить"><span class=" glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> <span class="hidden-sm hidden-md">В корзину</span></a>
+                                            </span>
+                                        </div>
+                                        <hr class="margin-t-10 margin-b-0">
+                                        <div>Стоимость: 000 &#8381; <small class="margin-l-10"><del class="text-muted">000 &#8381;</del></small></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-4">
+                                <div class="thumbnail thumbnail-card">
+                                    <div class="btn-fav-remove" title="Удалить из избранного">
+                                        <a class="btn btn-danger" href="#"><big class="glyphicon glyphicon-remove-sign" aria-hidden="true"></big></a>
+                                    </div>
+                                    <img class="img-rounded" alt="" src="https://images.cdn.tetravaal.org/resize_cache/1153628/efd17cf952fbad55a2259373e91af812/iblock/00d/00d1014dc7d0a177180937a42751f555/data_video.png" data-holder-rendered="true">
+                                    <div class="caption">
+                                        <h5><a href="#"><b>Название изделия NNN 0000-00 длинное</b></a></h5>
+                                        <span>Наличие:</span>
+                                        <p class="margin-b-10 avaliable-list">
+                                            <small class="text-muted margin-l-10"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Спб Нарвская</small>
+                                            <small class="text-muted margin-l-10"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Мск Нагатинская</small>
+                                        </p>
+                                        <div class="input-group input-group-sm margin-b-0">
+                                            <span class="input-group-btn">
+                                                <button type="button" class="btn btn-default" disabled><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button>
+                                            </span>
+                                            <input type="text" class="form-control text-center padding-l-0 padding-r-0" value="1 шт." disabled>
+                                            <span class="input-group-btn">
+                                                <button type="button" class="btn btn-default" disabled><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+                                                <a href="#" class="btn btn-success btn-sm" role="button" title="Купить" disabled><span class=" glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> <span class="hidden-sm hidden-md">В корзину</span></a>
+                                            </span>
+                                        </div>
+                                        <hr class="margin-t-10 margin-b-0">
+                                        <div class="text-muted">Стоимость: 000 &#8381; <small class="margin-l-10"><del class="text-muted">000 &#8381;</del></small></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-4">
+                                <div class="thumbnail thumbnail-card">
+                                    <div class="btn-fav-remove" title="Удалить из избранного">
+                                        <a class="btn btn-danger" href="#"><big class="glyphicon glyphicon-remove-sign" aria-hidden="true"></big></a>
+                                    </div>
+                                    <img class="img-rounded" alt="" src="https://images.cdn.tetravaal.org/resize_cache/1163255/efd17cf952fbad55a2259373e91af812/iblock/a8b/a8bea8ea750394939b6f4561161e7728/5245dc16_0cb0_11e6_825c_7cd30a148dd3_5245dc18_0cb0_11e6_825c_7cd30a148dd3.jpeg" data-holder-rendered="true">
+                                    <div class="caption">
+                                        <h5><a href="#"><b>Название изделия NNN 0000-00</b></a></h5>
+                                        <span>Наличие:</span>
+                                        <p class="margin-b-10 avaliable-list">
+                                            <small class="text-muted margin-l-10"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Спб Нарвская</small>
+                                            <small class="text-muted margin-l-10"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Мск Нагатинская</small>
+                                        </p>
+                                        <div class="input-group input-group-sm margin-b-0">
+                                            <span class="input-group-btn">
+                                                <button type="button" class="btn btn-default" disabled><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button>
+                                            </span>
+                                            <input type="text" class="form-control text-center padding-l-0 padding-r-0" value="1 шт." disabled>
+                                            <span class="input-group-btn">
+                                                <button type="button" class="btn btn-default" disabled><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+                                                <a href="#" class="btn btn-success btn-sm" role="button" title="Купить" disabled><span class=" glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> <span class="hidden-sm hidden-md">В корзину</span></a>
+                                            </span>
+                                        </div>
+                                        <hr class="margin-t-10 margin-b-0">
+                                        <div class="text-muted">Стоимость: 000 &#8381; <small class="margin-l-10"><del class="text-muted">000 &#8381;</del></small></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-4">
+                                <div class="thumbnail thumbnail-card">
+                                    <div class="btn-fav-remove" title="Удалить из избранного">
+                                        <a class="btn btn-danger" href="#"><big class="glyphicon glyphicon-remove-sign" aria-hidden="true"></big></a>
+                                    </div>
+                                    <img class="img-rounded" alt="" src="https://images.cdn.tetravaal.org/resize_cache/1163495/efd17cf952fbad55a2259373e91af812/iblock/d09/d09054bdc4566eed483a31eaedbc0fd9/475c2d0a_1879_11e6_8261_7cd30a148dd3_475c2d0c_1879_11e6_8261_7cd30a148dd3.jpeg" data-holder-rendered="true">
+                                    <div class="caption">
+                                        <h5><a href="#"><b>Название изделия NNN 0000-00</b></a></h5>
+                                        <span>Наличие:</span>
+                                        <p class="margin-b-10 avaliable-list">
+                                            <small class="text-muted margin-l-10"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Спб Нарвская</small>
+                                            <small class="text-muted margin-l-10"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Мск Нагатинская</small>
+                                        </p>
+                                        <div class="input-group input-group-sm margin-b-0">
+                                            <span class="input-group-btn">
+                                                <button type="button" class="btn btn-default" disabled><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button>
+                                            </span>
+                                            <input type="text" class="form-control text-center padding-l-0 padding-r-0" value="1 шт." disabled>
+                                            <span class="input-group-btn">
+                                                <button type="button" class="btn btn-default" disabled><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+                                                <a href="#" class="btn btn-success btn-sm" role="button" title="Купить" disabled><span class=" glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> <span class="hidden-sm hidden-md">В корзину</span></a>
+                                            </span>
+                                        </div>
+                                        <hr class="margin-t-10 margin-b-0">
+                                        <div class="text-muted">Стоимость: 000 &#8381; <small class="margin-l-10"><del class="text-muted">000 &#8381;</del></small></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-4">
+                                <div class="thumbnail thumbnail-card">
+                                    <div class="btn-fav-remove" title="Удалить из избранного">
+                                        <a class="btn btn-danger" href="#"><big class="glyphicon glyphicon-remove-sign" aria-hidden="true"></big></a>
+                                    </div>
+                                    <img class="img-rounded" alt="" src="https://images.cdn.tetravaal.org/resize_cache/1159212/efd17cf952fbad55a2259373e91af812/iblock/8e2/8e2707fa854db5f64b14acce7b672436/0bf3996c_d1f7_11e4_7195_116f22a0368f_0bf39980_d1f7_11e4_7195_116f22a0368f.jpeg" data-holder-rendered="true">
+                                    <div class="caption">
+                                        <h5><a href="#"><b>Название изделия NNN 0000-00</b></a></h5>
+                                        <span>Наличие:</span>
+                                        <p class="margin-b-10 avaliable-list">
+                                            <small class="text-muted margin-l-10"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Спб Нарвская</small>
+                                            <small class="text-muted margin-l-10"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Мск Нагатинская</small>
+                                        </p>
+                                        <div class="input-group input-group-sm margin-b-0">
+                                            <span class="input-group-btn">
+                                                <button type="button" class="btn btn-default" disabled><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button>
+                                            </span>
+                                            <input type="text" class="form-control text-center padding-l-0 padding-r-0" value="1 шт." disabled>
+                                            <span class="input-group-btn">
+                                                <button type="button" class="btn btn-default" disabled><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+                                                <a href="#" class="btn btn-success btn-sm" role="button" title="Купить" disabled><span class=" glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> <span class="hidden-sm hidden-md">В корзину</span></a>
+                                            </span>
+                                        </div>
+                                        <hr class="margin-t-10 margin-b-0">
+                                        <div class="text-muted">Стоимость: 000 &#8381; <small class="margin-l-10"><del class="text-muted">000 &#8381;</del></small></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            <a class="btn btn-primary btn-sm" href="#">Другие товары раздела <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+                        </div>
+                        <nav class="text-center" aria-label="...">
+                            <ul class="pagination pagination-sm margin-t-10">
+                                <li class="disabled"><a aria-label="Previous"><span aria-hidden="true">Начало</span></a></li>
+                                <li class="disabled"><a aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+                                <li class="active"><a>1</a></li>
+                                <li><a href="">2</a></li>
+                            <li><a aria-label="Next" href=""><span aria-hidden="true">»</span></a></li>
+                            <li><a aria-label="Next" href=""><span aria-hidden="true">Конец</span></a></li>
+                            </ul>
+                        </nav>
+                        <div class="visible-xs text-center">
+                            <a class="btn" href="#nav" role="button"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> Вверх</a>
+                        </div>
+                    </section>
+                    <section class="properties hidden">
+                        ...
+                    </section>
+                </div>
+            </div>
+        </div>
+        <br>
+    </body>
+</html>

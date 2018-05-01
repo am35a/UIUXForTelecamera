@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>www.telecamera.ru/personal/profile/ Регистрационная информация </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="http://www.telecamera.ru/bitrix/css/main/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+        <!-- Latest compiled and minified JavaScript >
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script-->
+
+        <link href="https://fonts.googleapis.com/css?family=Exo+2:300,400,500,600,700&amp;subset=cyrillic,latin-ext" rel="stylesheet">
+        <link href="global.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-xs-12 visible-md visible-lg">
+                    Боковое меню...
+                </div>
+                <div class="col-md-9 col-xs-12">
+                    <!-- Анкета инсталлятора -->
+                    <h3>Анкета инсталлятора</h3>
+                    <hr>
+                    <p>Мы предоставляем индивидуальные скидки покупателям — частным предпринимателям и юридическим лицам — оказывающим услуги по установке систем безопасности и связи. Пожалуйста, внимательно и подробно заполните анкету. Предоставляемые Вами данные будут использоваться для оформления бухгалтерских документов и ни в коем случае не будут переданы третьим лицам. Обратите нимание, что данные новой или измененной анкеты проходят обязательную модерацию. В случае обнаружения некорректных данных мы оставляем за собой право отказать в предоставлении скидок.</p>
+                    <h4>Вопросы анкеты</h4>
+                    <div class="row">
+                        <div class="col-sm-6 text-right">
+                            <b>Компания или ИП: <small class="glyphicon glyphicon-asterisk text-danger" aria-hidden="true"></small></b>
+                        </div>
+                        <div class="col-sm-6 text-left margin-b-10">
+                            <input maxlength="300" class="form-control suggestions-input" value="" name="QUESTION[company_name]" autocomplete="off" style="box-sizing: border-box;" type="text">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 text-right">
+                            <b>У меня нет реквизитов: <small class="glyphicon glyphicon-asterisk text-danger" aria-hidden="true"></small></b>
+                        </div>
+                        <div class="col-sm-6 text-left margin-b-10">
+                            <div class="checkbox margin-t-0 margin-b-0">
+                                <label>
+                                    <input id="person_box" name="QUESTION[person][]" value="Выберите опцию, если Вы работаете без зарегистрированного юридического лица или ИП" type="checkbox">
+                                    <span class="text-info">Выберите опцию, если Вы работаете без зарегистрированного юридического лица или ИП</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 text-right">
+                            <b>ИНН: <small class="glyphicon glyphicon-asterisk text-danger" aria-hidden="true"></small></b>
+                        </div>
+                        <div class="col-sm-6 text-left margin-b-10">
+                            <input maxlength="300" class="form-control" value="" name="QUESTION[inn]" type="text">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 text-right">
+                            <b>Адрес: <small class="glyphicon glyphicon-asterisk text-danger" aria-hidden="true"></small></b>
+                        </div>
+                        <div class="col-sm-6 text-left margin-b-10">
+                            <input maxlength="300" class="form-control" value="" name="QUESTION[ur_address]" type="text" style="width:100%;">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 text-right">
+                            <b>Подтверждение деятельности: <small class="glyphicon glyphicon-asterisk text-danger" aria-hidden="true"></small></b>
+                        </div>
+                        <div class="col-sm-6 text-left margin-b-10">
+                            <div class="text-left">
+                                Пришлите сканы или фотографии документов (товарных чеков, накладных) ваших последних трех закупок у любого поставщика систем безопасности. Доступные расширения файлов: jpg, jpeg, png, gif, pdf
+                            </div>
+                            <a href="#" class="btn btn-default btn-sm margin-t-10"><span class="glyphicon glyphicon-upload" aria-hidden="true"></span> Загрузить файлы</a>
+                            <!-- дизайн размещения блока загрузки файлов не определен, после сборки решение будет принято -->
+                            <!-- <div> либо тут </div> -->
+                        </div>
+                    </div>
+                    <!-- <div> либо тут </div> -->
+                    <div class="row">
+                        <div class="col-sm-6 text-right">
+                            <b>Виды деятельности: <small class="glyphicon glyphicon-asterisk text-danger" aria-hidden="true"></small></b>
+                        </div>
+                        <div class="col-sm-6 text-left margin-b-10">
+                            <div class="checkbox margin-t-0 margin-b-0 text-left inline-block">
+                                <label><input id="person_box" name="QUESTION[business][]" value="Видеонаблюдение, контроль доступа, домофоны" type="checkbox">Видеонаблюдение, контроль доступа, домофоны</label><br>
+                                <label><input id="person_box" name="QUESTION[business][]" value="Охранно-пожарная сигнализация" type="checkbox">Охранно-пожарная сигнализация</label><br>
+                                <label><input id="person_box" name="QUESTION[business][]" value="Структурированные кабельные сети" type="checkbox">Структурированные кабельные сети</label><br>
+                                <label><input id="person_box" name="QUESTION[business][]" value="Электромонтажные работы" type="checkbox">Электромонтажные работы</label><br>
+                                <label><input id="person_box" name="QUESTION[business][]" value="Строительно-ремонтные работы" type="checkbox">Строительно-ремонтные работы</label><br>
+                                <label><input id="person_box" name="QUESTION[business][]" value="Инженерные сети" type="checkbox">Инженерные сети</label><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 text-right">
+                            <b>Адрес сайта: <small class="glyphicon glyphicon-asterisk text-danger" aria-hidden="true"></small></b>
+                        </div>
+                        <div class="col-sm-6 text-left margin-b-10">
+                            <input maxlength="300" class="form-control" value="" name="QUESTION[website]" type="text">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 text-right">
+                            <b>Телефон: <small class="glyphicon glyphicon-asterisk text-danger" aria-hidden="true"></small></b>
+                        </div>
+                        <div class="col-sm-6 text-left margin-b-10">
+                            <input maxlength="300" class="form-control" value="" name="QUESTION[phone]" data-inputmask="'mask': '+7(999)999-99-99'" type="text">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 text-right">
+                            <b>ФИО руководителя: <small class="glyphicon glyphicon-asterisk text-danger" aria-hidden="true"></small></b>
+                        </div>
+                        <div class="col-sm-6 text-left margin-b-10">
+                            <input maxlength="300" class="form-control suggestions-input" value="" name="QUESTION[FIO]" autocomplete="off" type="text" style="width:100%;">
+                        </div>
+                    </div>
+                    <div class="row margin-t-10">
+                        <div class="col-sm-6 text-right margin-b-10">
+                            <input onclick="$('#form-div').hide();$('#filled-form').show();" name="reset" value="Отменить и вернуться" class="btn btn-default ellipsis" type="reset">
+                        </div>
+                        <div class="col-sm-6 text-left margin-b-10">
+                            <input name="save" value="Отправить" class="btn btn-success" type="submit">
+                        </div>
+                    </div>
+                    <hr class="margin-t-10">
+                    <div class="text-info margin-b-10" role="alert">
+                        <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Скидки станут Вам доступны сразу после заполнения анкеты. Цена каждого товара будет перечеркнута и рядом с ней указана цена с учетом скидки. Если после заполнения и отправки анкеты цены не изменились, необходимо перелогиниться (выйти и зайти заново с именем пользователя и паролем, указанными при регистрации).
+                    </div>
+                    <div class="visible-xs text-center">
+                        <a class="btn" href="#nav" role="button"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> Вверх</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>www.telecamera.ru/personal/profile/ Регистрационная информация </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="http://www.telecamera.ru/bitrix/css/main/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+        <!-- Latest compiled and minified JavaScript >
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script-->
+
+        <link href="https://fonts.googleapis.com/css?family=Exo+2:300,400,500,600,700&amp;subset=cyrillic,latin-ext" rel="stylesheet">
+        <link href="global.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-xs-12 visible-md visible-lg">
+                    Боковое меню...
+                </div>
+                <div class="col-md-9 col-xs-12">
+                    <br>
+                    <!-- Корзина пуста -->
+                    <div class="alert alert-info hidden" role="alert">
+                        <a href="#" class="alert-link">Ваша корзина пуста.</a>
+                    </div>
+
+                    <!-- В две колонки сообщения -->
+                    <div class="row">
+                        <div class="col-sm-6 col-xs-12">
+                            <div class="alert alert-info" role="alert">
+                                <a href="#" class="alert-link">Сообщения в две колонки. Это короткое.</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xs-12">
+                            <div class="alert alert-info" role="alert">
+                                <a href="#" class="alert-link">Сообщения в две колонки. Вот это сообщение уже значительно длинее предыдущего.</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Скидки и прочее -->
+                    <div class="alert alert-info hidden" role="alert">
+                        <a href="#" class="alert-link">При сумме заказа от 30 000 рублей мы предлагаем бесплатную доставку по Санкт-Петербургу и скидку 30% на доставку по России!</a>
+                    </div>
+
+                    <ul id="nav" class="nav nav-tabs">
+                        <li role="presentation" class="active"><a class="ellipsis" href="#">В корзине</a></li>
+                        <li role="presentation"><a class="ellipsis" href="#">Отложенные <span class="badge">14</span></a></li>
+                    </ul>
+
+                    <!-- Таблица корзины -->
+                    <section>
+                        <table class="table table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th><small><span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span></small> Товары</th>
+                                    <th><small>Стоимость</small></th>
+                                    <th width="120"><small>Колличество</small></th>
+                                    <th><small>Сумма</small></th>
+                                    <th width="36"><!--Действия--></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <a class="item-data" href="#" target="_blank" title="">
+                                            <img class="img-rounded margin-r-10" src="https://images.cdn.tetravaal.org/iblock/5be/5be8f86b3c4f3246255217e635731fcc/4c0a3312_a31a_11dc_aac1_0013d4ba11e9_3c10b1b6_f6d2_11df_1787_000ffe9eecf1.resize1.jpeg" alt="Название оборудования ХХХ 0000">
+                                            <span>Название оборудования ХХХ 0000</span>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <b>00000</b> <span class="text-muted">&#8381;</span>
+                                        <div title="Старая цена"><del><small class="text-muted">00000 <small>&#8381;</small></small></del></div>
+                                    </td>
+                                    <td>
+                                        <div class="basket-quantity input-group input-group-sm margin-b-0">
+                                            <span class="input-group-btn">
+                                                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button>
+                                            </span>
+                                            <input type="text" class="form-control text-center padding-l-0 padding-r-0" value="120">
+                                            <span class="input-group-btn">
+                                                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+                                            </span>
+                                        </div>
+                                        <div class="text-center">шт.</div>
+                                    </td>
+                                    <td>
+                                        <b>00000</b> <span class="text-muted">&#8381;</span>
+                                    </td>
+                                    <td>
+                                        <div class="visible-lg-block">
+                                            <a class="btn" href="#"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span><span> Отложить</span></a>
+                                            <a class="btn text-danger" href="#"><span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span><span> Удалить</span></a>
+                                        </div>
+                                        <div class="visible-xs-block visible-sm-block visible-md-block">
+                                            <a class="btn" href="#"><big class="glyphicon glyphicon-share-alt" aria-hidden="true"></big></a>
+                                            <a class="btn text-danger" href="#"><big class="glyphicon glyphicon-remove-sign" aria-hidden="true"></big></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a class="item-data" href="#" target="_blank" title="">
+                                            <img class="img-rounded margin-r-10" src="https://images.cdn.tetravaal.org/iblock/b21/b21e279c075f873d08356a05c81e17c8/5edba702_b220_11e6_8269_7cd30a148dd3_5edba704_b220_11e6_8269_7cd30a148dd3.resize1.jpeg" alt="Название оборудования ХХХ 0000">
+                                            <span>Название оборудования ХХХ 0000</span>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <b>00000</b> <span class="text-muted">&#8381;</span>
+                                        <div title="Старая цена"><del><small class="text-muted">00000 <small>&#8381;</small></small></del></div>
+                                    </td>
+                                    <td>
+                                        <div class="basket-quantity input-group input-group-sm">
+                                            <span class="input-group-btn">
+                                                <button type="button" class="btn btn-default disabled"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button>
+                                            </span>
+                                            <input type="text" class="form-control text-center padding-l-0 padding-r-0" value="1">
+                                            <span class="input-group-btn">
+                                                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+                                            </span>
+                                        </div>
+                                        <div class="text-center">шт.</div>
+                                    </td>
+                                    <td>
+                                         <b>00000</b> <span class="text-muted">&#8381;</span>
+                                    </td>
+                                    <td>
+                                        <div class="visible-lg-block">
+                                            <a class="btn" href="#"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span><span> Отложить</span></a>
+                                            <a class="btn text-danger" href="#"><span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span><span> Удалить</span></a>
+                                        </div>
+                                        <div class="visible-xs-block visible-sm-block visible-md-block">
+                                            <a class="btn" href="#"><big class="glyphicon glyphicon-share-alt" aria-hidden="true"></big></a>
+                                            <a class="btn text-danger" href="#"><big class="glyphicon glyphicon-remove-sign" aria-hidden="true"></big></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="row">
+                            <div class="col-xs-12 text-left">
+                                <a class="btn btn-default btn-xs margin-b-10" href="#" title="Отправить список на почту"><span class="glyphicon glyphicon-envelope"></span> Отправить список</a>
+                                <a class="btn btn-default btn-xs margin-b-10" href="#" title="Поделиться корзиной"><span class="glyphicon glyphicon-share"></span> Ссылка на корзину</a>
+                                <a class="btn btn-default btn-xs margin-b-10" href="#" title="Предзаказ на товары в корзине"><span class="glyphicon glyphicon-shopping-cart"></span> Предзаказ</a>
+                                <div class="alert alert-success hidden margin-t-10" id="basket_content_message"></div>
+                            </div>
+                        </div>
+                        <hr class="margin-t-10">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 text-left">
+                                <span>Введите код купона для скидки:</span>
+                                <div class="input-group input-group-sm" style="width: 200px">
+                                    <input class="form-control" onkeydown="if(event.keyCode==13){return false;}" id="coupon" name="COUPON" value="" onchange="enterCoupon();" type="text">
+                                    <span class="input-group-btn">
+                                        <a class="btn btn-default" href="javascript:void(0)" onclick="enterCoupon(); ga('send', 'event', 'coupon', 'apply');return true;" title="Нажмите для применения нового купона">Ок</a>
+                                    </span>
+                                </div>
+                                <span class="visible-xs-block">&nbsp;</span>
+                            </div>
+                            <div class="col-xs-12 col-sm-6">
+                                <div class="text-right">
+                                    Итого: <b>00000</b> <span class="text-muted">&#8381;</span>
+                                </div>
+                                <div class="text-info text-right">
+                                    <small class="margin-t-10"><small class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></small> Будет начислено бонусов: <b>000</b> <small class="text-muted">&#8381;</small></small>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="text-right">
+                            <button id="basketOrderButton2" class="btn btn-success" href="javascript:void(0)" rel-basket-min-sum="600">Оформить заказ</button>
+                        </p>
+                    </section>
+
+                    <!-- Таблица отложенных товаров -->
+                    <section class="hidden">
+                        <h3>Отложенные товары</h3>
+                        <br>
+                        <section>
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="text-left"><h4 class="margin-t-0 margin-b-0">Название списка</h4></div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="text-right">
+                                        <a class="text-danger" href="#" title="Удалить весь список"><small class="glyphicon glyphicon-remove-sign"></small>&nbsp;Удалить список</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="margin-t-0">
+                            <table class="table table-striped table-hover">
+                                <thead>
+                                    <tr>
+                                        <th><small><span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span></small> Товары</th>
+                                        <th><small>Стоимость</small></th>
+                                        <th width="120"><small>Колличество</small></th>
+                                        <th><small>Сумма</small></th>
+                                        <th width="36"><!--Действия--></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <a class="item-data" href="#" target="_blank" title="">
+                                                <img class="img-rounded margin-r-10" src="https://images.cdn.tetravaal.org/iblock/5be/5be8f86b3c4f3246255217e635731fcc/4c0a3312_a31a_11dc_aac1_0013d4ba11e9_3c10b1b6_f6d2_11df_1787_000ffe9eecf1.resize1.jpeg" alt="Название оборудования ХХХ 0000">
+                                                <span>Название оборудования ХХХ 0000</span>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <b>00000</b> <span class="text-muted">&#8381;</span>
+                                            <div title="Старая цена"><del><small class="text-muted">00000 <small>&#8381;</small></small></del></div>
+                                        </td>
+                                        <td>
+                                            <div class="basket-quantity input-group input-group-sm margin-b-0">
+                                                <span class="input-group-btn">
+                                                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button>
+                                                </span>
+                                                <input type="text" class="form-control text-center padding-l-0 padding-r-0" value="120">
+                                                <span class="input-group-btn">
+                                                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+                                                </span>
+                                            </div>
+                                            <div class="text-center">шт.</div>
+                                        </td>
+                                        <td>
+                                            <b>00000</b> <span class="text-muted">&#8381;</span>
+                                        </td>
+                                        <td>
+                                            <div class="visible-lg-block">
+                                                <a class="btn" href="#"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span><span> Отложить</span></a>
+                                                <a class="btn text-danger" href="#"><span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span><span> Удалить</span></a>
+                                            </div>
+                                            <div class="visible-xs-block visible-sm-block visible-md-block">
+                                                <a class="btn" href="#"><big class="glyphicon glyphicon-share-alt" aria-hidden="true"></big></a>
+                                                <a class="btn text-danger" href="#"><big class="glyphicon glyphicon-remove-sign" aria-hidden="true"></big></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="row">
+                                <div class="col-xs-12 text-left">
+                                    <a class="btn btn-default btn-xs margin-b-10" href="#" title="Отправить список на почту"><span class="glyphicon glyphicon-envelope"></span> Отправить список</a>
+                                    <a class="btn btn-default btn-xs margin-b-10" href="#" title="Поделиться ссылкой на список"><span class="glyphicon glyphicon-share"></span> Поделиться списком</a>
+                                    <a class="btn btn-default btn-xs margin-b-10" href="#" title="Предзаказ на товары списка"><span class="glyphicon glyphicon-shopping-cart"></span> Предзаказ</a>
+                                    <a class="btn btn-default btn-xs margin-b-10" href="#" title="Переместить весь список в корзину"><span class="glyphicon glyphicon-share-alt"></span> Добавить к заказу</a>
+                                    <div class="alert alert-success hidden margin-t-10" id="share_basket_message_1"></div>
+                                </div>
+                            </div>
+                            <hr class="margin-t-10">
+                            <span>&nbsp;</span>
+                        </section>
+                        <section>
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="text-left"><h4 class="margin-t-0 margin-b-0">Название списка</h4></div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="text-right">
+                                        <a class="text-danger" href="#" title="Удалить весь список"><small class="glyphicon glyphicon-remove-sign"></small>&nbsp;Удалить список</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="margin-t-0">
+                            <table class="table table-striped table-hover">
+                                <thead>
+                                    <tr>
+                                        <th><small><span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span></small> Товары</th>
+                                        <th><small>Стоимость</small></th>
+                                        <th width="120"><small>Колличество</small></th>
+                                        <th><small>Сумма</small></th>
+                                        <th width="36"><!--Действия--></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <a class="item-data" href="#" target="_blank" title="">
+                                                <img class="img-rounded margin-r-10" src="https://images.cdn.tetravaal.org/iblock/5be/5be8f86b3c4f3246255217e635731fcc/4c0a3312_a31a_11dc_aac1_0013d4ba11e9_3c10b1b6_f6d2_11df_1787_000ffe9eecf1.resize1.jpeg" alt="Название оборудования ХХХ 0000">
+                                                <span>Название оборудования ХХХ 0000</span>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <b>00000</b> <span class="text-muted">&#8381;</span>
+                                            <div title="Старая цена"><del><small class="text-muted">00000 <small>&#8381;</small></small></del></div>
+                                        </td>
+                                        <td>
+                                            <div class="basket-quantity input-group input-group-sm margin-b-0">
+                                                <span class="input-group-btn">
+                                                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button>
+                                                </span>
+                                                <input type="text" class="form-control text-center padding-l-0 padding-r-0" value="120">
+                                                <span class="input-group-btn">
+                                                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+                                                </span>
+                                            </div>
+                                            <div class="text-center">шт.</div>
+                                        </td>
+                                        <td>
+                                            <b>00000</b> <span class="text-muted">&#8381;</span>
+                                        </td>
+                                        <td>
+                                            <div class="visible-lg-block">
+                                                <a class="btn" href="#"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span><span> Отложить</span></a>
+                                                <a class="btn text-danger" href="#"><span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span><span> Удалить</span></a>
+                                            </div>
+                                            <div class="visible-xs-block visible-sm-block visible-md-block">
+                                                <a class="btn" href="#"><big class="glyphicon glyphicon-share-alt" aria-hidden="true"></big></a>
+                                                <a class="btn text-danger" href="#"><big class="glyphicon glyphicon-remove-sign" aria-hidden="true"></big></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="row">
+                                <div class="col-xs-12 text-left">
+                                    <a class="btn btn-default btn-xs margin-b-10" href="#" title="Отправить список на почту"><span class="glyphicon glyphicon-envelope"></span> Отправить список</a>
+                                    <a class="btn btn-default btn-xs margin-b-10" href="#" title="Поделиться ссылкой на список"><span class="glyphicon glyphicon-share"></span> Поделиться списком</a>
+                                    <a class="btn btn-default btn-xs margin-b-10" href="#" title="Предзаказ на товары списка"><span class="glyphicon glyphicon-shopping-cart"></span> Предзаказ</a>
+                                    <a class="btn btn-default btn-xs margin-b-10" href="#" title="Переместить весь список в корзину"><span class="glyphicon glyphicon-share-alt"></span> Добавить к заказу</a>
+                                    <div class="alert alert-success hidden margin-t-10" id="share_basket_message_1"></div>
+                                </div>
+                            </div>
+                            <hr class="margin-t-10">
+                            <span>&nbsp;</span>
+                        </section>
+                    </section>
+
+                    <div class="visible-xs text-center">
+                        <a class="btn" href="#nav" role="button"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> Вверх</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </body>
+
+</html>

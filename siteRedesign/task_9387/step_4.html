@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>www.telecamera.ru/personal/order/ Заказы</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> -->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <!-- Latest compiled and minified JavaScript -->
+        <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+
+        <link href="https://fonts.googleapis.com/css?family=Exo+2:300,400,500,600,700&amp;subset=cyrillic,latin-ext" rel="stylesheet">
+        <link href="global.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-xs-12 visible-md visible-lg">
+                    Боковое меню...
+                </div>
+                <div class="col-md-9 col-xs-12">
+                    <!-- Фильтр -->
+                    <section>
+                        <h3 class="text-center">Фильтр</h3>
+
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6 text-right">
+                                <b>Код заказа:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10 align-middle">
+                                <input class="form-control" name="filter_id" value="" size="10" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6 text-right">
+                                <b>Дата заказа:</b>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="row">
+                                    <div class="col-sm-6 margin-b-10">
+                                        <div class="input-group data">
+                                            <input type="text" class="form-control" placeholder="c: дд.мм.гггг" aria-describedby="basic-addon2">
+                                            <div class="input-group-btn">
+                                                <a class="btn btn-default" type="button"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 margin-b-10">
+                                        <div class="input-group data">
+                                            <input type="text" class="form-control" placeholder="до: дд.мм.гггг" aria-describedby="basic-addon2">
+                                            <div class="input-group-btn">
+                                                <a class="btn btn-default" type="button"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6 text-right">
+                                <b>Статус заказа:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-b-10">
+                                <select class="form-control" name="filter_status">
+                                    <option value="">&lt; Все &gt;</option>
+				                    <option value="N">[N] Принят</option>
+                                    <option value="P">[P] Ждём оплату</option>
+                                    <option value="C">[C] Подтвержден</option>
+                                    <option value="PO">[PO] Оплачено онлайн</option>
+                                    <option value="O">[O] В обработке</option>
+                                    <option value="R">[R] Готов к выдаче</option>
+                                    <option value="D">[D] Отгружен</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6 text-right">
+                                <b>Оплачен:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-t-0 radio">
+                                <label class="margin-l-10 margin-r-10"><input type="radio" name="optionsRadios1" id="" value="option1">Да</label>
+                                <span>|</span>
+                                <label class="margin-l-10 margin-r-10"><input type="radio" name="optionsRadios1" id="" value="option2">Нет</label>
+                                <span>|</span>
+                                <label class="margin-l-10 margin-r-10"><input type="radio" name="optionsRadios1" id="" value="option3" checked>Все</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6 text-right">
+                                <b>Отменен:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-t-0 radio">
+                                <label class="margin-l-10 margin-r-10"><input type="radio" name="optionsRadios2" id="" value="option1">Да</label>
+                                <span>|</span>
+                                <label class="margin-l-10 margin-r-10"><input type="radio" name="optionsRadios2" id="" value="option2">Нет</label>
+                                <span>|</span>
+                                <label class="margin-l-10 margin-r-10"><input type="radio" name="optionsRadios2" id="" value="option3" checked>Все</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6 text-right">
+                                <b>В том числе доставленные:</b>
+                            </div>
+                            <div class="col-sm-6 text-left margin-t-0 radio">
+                                <label class="margin-l-10 margin-r-10"><input type="radio" name="optionsRadios3" id="" value="option1" checked>Да</label>
+                                <span>|</span>
+                                <label class="margin-l-10 margin-r-10"><input type="radio" name="optionsRadios3" id="" value="option2">Нет</label>
+                            </div>
+                        </div>
+                        <p class="text-center">
+                            <input class="btn btn-success" name="filter" value="Установить" type="submit">
+                            <input class="btn btn-default" name="del_filter" value="Снять" type="submit">
+                        </p>
+                    </section>
+                    <hr>
+                    <!-- Список -->
+                    <section>
+                        <nav class="text-center" aria-label="...">
+                            <div>Заказы 1 - 2 из 18</div>
+                            <ul class="pagination pagination-sm">
+                                <li class="disabled"><a aria-label="Previous"><span aria-hidden="true">Начало</span></a></li>
+                                <li class="disabled"><a aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+                                <li class="active"><a>1</a></li>
+                                <li><a href="">2</a></li>
+                            <li><a aria-label="Next" href=""><span aria-hidden="true">»</span></a></li>
+                            <li><a aria-label="Next" href=""><span aria-hidden="true">Конец</span></a></li>
+                            </ul>
+                        </nav>
+                        <table class="table table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th><small>Код заказа</small></th>
+                                    <th><small>Стоимость</small></th>
+                                    <th><small>Статус</small></th>
+                                    <th><small>Товары</small></th>
+                                    <th><small>Оплачен</small></th>
+                                    <th><small>Отменен</small></th>
+                                    <th class="hidden-xs"><small>Способ оплаты/доставки</small></th>
+                                    <th width="36"><!--Действия--></th>
+                                </tr>
+                                <tr>
+                                    <td class="nospace">
+                                        <a class="btn btn-xs glyphicon glyphicon-triangle-bottom" aria-hidden="true"></a>
+                                        <a class="btn btn-xs glyphicon glyphicon-triangle-top text-muted" aria-hidden="true"></a>
+                                    </td>
+                                    <td class="nospace">
+                                        <a class="btn btn-xs glyphicon glyphicon-triangle-bottom text-muted" aria-hidden="true"></a>
+                                        <a class="btn btn-xs glyphicon glyphicon-triangle-top text-muted" aria-hidden="true"></a>
+                                    </td>
+                                    <td class="nospace">
+                                        <a class="btn btn-xs glyphicon glyphicon-triangle-bottom text-muted" aria-hidden="true"></a>
+                                        <a class="btn btn-xs glyphicon glyphicon-triangle-top text-muted" aria-hidden="true"></a>
+                                    </td>
+                                    <td></td>
+                                    <td class="nospace">
+                                        <a class="btn btn-xs glyphicon glyphicon-triangle-bottom text-muted" aria-hidden="true"></a>
+                                        <a class="btn btn-xs glyphicon glyphicon-triangle-top text-muted" aria-hidden="true"></a>
+                                    </td>
+                                    <td class="nospace">
+                                        <a class="btn btn-xs glyphicon glyphicon-triangle-bottom text-muted" aria-hidden="true"></a>
+                                        <a class="btn btn-xs glyphicon glyphicon-triangle-top text-muted" aria-hidden="true"></a>
+                                    </td>
+                                    <td class="hidden-xs"></td>
+                                    <td></td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><b>00000</b> <span class="text-muted">от <small>00.00.0000</small></span></td>
+                                    <td><b>00000</b> <span class="text-muted">&#8381;</span></td>
+                                    <td><b>принят</b> <div class="text-muted"><small>00.00.0000</small></div></td>
+                                    <td><a href="#">IP монитор видеодомофона DAHUA DH-VTH1520AS-H</a></td>
+                                    <td class="text-center"><b class="text-success">да</b></td>
+                                    <td class="text-center"><b class="text-muted">нет</b></td>
+                                    <td class="hidden-xs"><b>предоплата</b> / оф. М.Комендантский</td>
+                                    <td>
+                                        <div class="visible-lg-block">
+                                            <a class="btn btn-xs" href="#"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span><span> Подробно</span></a>
+                                            <a class="btn btn-xs" href="#"><span class="glyphicon glyphicon-repeat" aria-hidden="true"></span><span> Повторить</span></a>
+                                            <a class="btn btn-xs text-danger" href="#"><span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span><span> Отменить</span></a>
+                                        </div>
+                                        <div class="visible-sm-block visible-md-block">
+                                            <a class="btn btn-xs" href="#"><big class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></big></a>
+                                            <a class="btn btn-xs" href="#"><big class="glyphicon glyphicon-repeat" aria-hidden="true"></big></a>
+                                            <a class="btn btn-xs text-danger" href="#"><big class="glyphicon glyphicon-remove-sign" aria-hidden="true"></big></a>
+                                        </div>
+                                        <div class="visible-xs-block">
+                                            <a class="btn" href="#"><big class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></big></a>
+                                            <a class="btn" href="#"><big class="glyphicon glyphicon-repeat" aria-hidden="true"></big></a>
+                                            <a class="btn text-danger" href="#"><big class="glyphicon glyphicon-remove-sign" aria-hidden="true"></big></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><b>00000</b><span class="text-muted"> от <span class="visible-block"><small>00.00.0000</small></span></span></td>
+                                    <td><b>00000</b> <span class="text-muted">&#8381;</span></td>
+                                    <td><b>принят</b> <span class="visible-block text-muted"><small>00.00.0000</small></span></td>
+                                    <td><a href="#">IP монитор видеодомофона DAHUA DH-VTH1520AS-H</a></td>
+                                    <td class="text-center"><b class="text-success">да</b></td>
+                                    <td class="text-center"><b class="text-muted">нет</b></td>
+                                    <td class="hidden-xs"><b>предоплата</b> / оф. М.Комендантский</td>
+                                    <td>
+                                        <div class="visible-lg-block">
+                                            <a class="btn btn-xs" href="#"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span><span> Подробно</span></a>
+                                            <a class="btn btn-xs" href="#"><span class="glyphicon glyphicon-repeat" aria-hidden="true"></span><span> Повторить</span></a>
+                                            <a class="btn btn-xs text-danger" href="#"><span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span><span> Отменить</span></a>
+                                        </div>
+                                        <div class="visible-sm-block visible-md-block">
+                                            <a class="btn btn-xs" href="#"><big class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></big></a>
+                                            <a class="btn btn-xs" href="#"><big class="glyphicon glyphicon-repeat" aria-hidden="true"></big></a>
+                                            <a class="btn btn-xs text-danger" href="#"><big class="glyphicon glyphicon-remove-sign" aria-hidden="true"></big></a>
+                                        </div>
+                                        <div class="visible-xs-block">
+                                            <a class="btn" href="#"><big class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></big></a>
+                                            <a class="btn" href="#"><big class="glyphicon glyphicon-repeat" aria-hidden="true"></big></a>
+                                            <a class="btn text-danger" href="#"><big class="glyphicon glyphicon-remove-sign" aria-hidden="true"></big></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                    <div class="visible-xs text-center">
+                        <a class="btn" href="#nav" role="button"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> Вверх</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </body>
+</html>

@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Страница товара</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="http://www.telecamera.ru/bitrix/css/main/bootstrap.min.css">
+        <!-- Optional theme -->
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+        <!-- Latest compiled and minified JavaScript -->
+        <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+        <link href="https://fonts.googleapis.com/css?family=Exo+2:300,400,500,600,700&amp;subset=cyrillic,latin-ext" rel="stylesheet">
+        <link href="global.css" rel="stylesheet">
+    </head>
+    <body>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-xs-12 visible-md visible-lg">
+                    Боковое меню...
+                </div>
+                <div class="col-md-9 col-xs-12">
+                    <div class="btn-toolbar">
+                        <h2 class="pull-left"><a  href="favorites.html" title="Избранное">Избранное</a></h2>
+                        <h2 class="pull-right"><a class="disabled" href="#" title="Настройки"><span class="hidden">Настройки</span> <span class="glyphicon glyphicon-cog" aria-hidden="true"></span></a></h2>
+                    </div>
+                    <hr class="margin-t-0">
+                    <section class="favorites hidden">
+                        ...
+                    </section>
+                    <section class="properties">
+                        <div class="row row-cards">
+                            <div class="col-sm-6">
+                                <div> <!--class="panel panel-default"-->
+                                    <h3 class="panel-title margin-0 padding-10">Оповещения</h3>
+                                    <hr class="margin-0">
+                                    <div class="panel-body">
+                                        <p>Получать оповещения о наличии товара, поступлении в оффис {нужен правильный текст}:</p>
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <div class="margin-r-10 margin-b-10 text-right"><b>eMail</b></div>
+                                                </td>
+                                                <td>
+                                                    <div class="input-group input-group-sm margin-b-10">
+                                                        <span class="input-group-addon">
+                                                            <input type="checkbox" checked>
+                                                        </span>
+                                                        <input type="text" class="form-control" value="name@mane.zone">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="margin-r-10 text-right"><b>SMS</b></div>
+                                                </td>
+                                                <td>
+                                                    <div class="input-group input-group-sm">
+                                                        <span class="input-group-addon">
+                                                            <input type="checkbox">
+                                                        </span>
+                                                        <input type="text" class="form-control" value="+7(000)000-00-00" disabled>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div> <!--class="panel panel-default"-->
+                                    <h3 class="panel-title margin-0 padding-10">Оффисы выдачи</h3>
+                                    <hr class="margin-0">
+                                    <div class="panel-body">
+                                        <p>Отметьте интересующие вас офисы выдачи {нужен правильный текст}</p>
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <div class="checkbox margin-t-0">
+                                                    <label>
+                                                        <input type="checkbox"> <b>г. Санкт Петербург</b>
+                                                    </label>
+                                                    <div class="checkbox margin-l-10">
+                                                        <label>
+                                                            <input type="checkbox" checked disabled> Нарвская
+                                                        </label>
+                                                        <br>
+                                                        <label>
+                                                            <input type="checkbox" checked disabled> Комендантский
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <div class="checkbox margin-t-0">
+                                                    <label>
+                                                        <input type="checkbox" checked> <b>г. Москва</b>
+                                                    </label>
+                                                    <div class="checkbox margin-l-10">
+                                                        <label>
+                                                            <input type="checkbox" checked> Нагатинская
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div> <!--class="panel panel-default"-->
+                                    <h3 class="panel-title margin-0 padding-10">Видимость</h3>
+                                    <hr class="margin-0">
+                                    <div class="panel-body">
+                                        <div class="checkbox margin-t-0">
+                                            <label>
+                                                <input type="checkbox"> Скрыть главной странице "Избранное" недоступный для заказа товар {нужен правильный текст}
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="margin-b-10">
+                        <div class="text-right">
+                            <!-- disabled если сохранена и показывать если клиент что-то изменил в настройках -->
+                            <button class="btn btn-default btn-sm" type="button" name="button" disabled><span class="glyphicon glyphicon-save"></span> Сохранить изменения</button>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <br>
+    </body>
+</html>

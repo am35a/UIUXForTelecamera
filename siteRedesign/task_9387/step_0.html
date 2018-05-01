@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>www.telecamera.ru/personal/profile/ Регистрационная информация </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="http://www.telecamera.ru/bitrix/css/main/bootstrap.min.css">
+        <!-- Optional theme -->
+        <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"-->
+        <!-- Latest compiled and minified JavaScript >
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script-->
+
+        <link href="https://fonts.googleapis.com/css?family=Exo+2:300,400,500,600,700&amp;subset=cyrillic,latin-ext" rel="stylesheet">
+        <link href="global.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <!-- Авторизация -->
+                    <section class="">
+                        <form>
+                            <legend>Авторизация</legend>
+                            <div class="form-group">
+                                <label for="" class="col-sm-2 control-label text-right padding-r-0">Логин</label>
+                                <div class="col-sm-10 margin-b-10">
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="col-sm-2 control-label text-right padding-r-0">Пароль</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox"> Запомнить меня на этом компьютере
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-default">Авторизироваться на сайте</button>
+                            </div>
+                        </form>
+                        <!--hr class="margin-b-10"-->
+                        <legend><small>Войти через:</small></legend>
+                        <div class="row margin-t-0">
+                            <div class="col-xs-4 text-left"><a class="btn CSocServVKontakte margin-b-10 ellipsis" href="javascript:void(0)" onclick="BxShowAuthService('VKontakte', '')" id="bx_auth_href_VKontakte">ВКонтакте</a></div>
+                            <div class="col-xs-4 text-center"><a class="btn CSocServFacebook margin-b-10 ellipsis" href="javascript:void(0)" onclick="BxShowAuthService('Facebook', '')" id="bx_auth_href_Facebook">Facebook</a></div>
+                            <div class="col-xs-4 text-right"><a class="btn CSocServMailru margin-b-10 ellipsis" href="javascript:void(0)" onclick="BxShowAuthService('MailRuOpenID', '')" id="bx_auth_href_MailRuOpenID"><i class="bx-ss-icon openid-mail-ru"></i> Mail.Ru</a></div>
+                        </div>
+                        <div class="row margin-b-10">
+                            <hr>
+                            <div class="col-sm-12 col-md-6 text-left">
+                                <a href="#" class="btn btn-warning btn-sm margin-b-10">Забыли свой пароль?</a>
+                            </div>
+                            <div class="col-sm-12 col-md-6 text-right">
+                                <a href="#" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Зарегистрироваться</a>
+                            </div>
+                        </div>
+                        <br>
+                        <!-- <div class="margin-t-10">
+                            <legend>Войти как:</legend>
+                            <span>зарегистрированный пользователь одного из сервисов:</span>
+                            <div class="margin-t-10">
+                            	<a class="btn btn-default margin-b-10" href="javascript:void(0)" onclick="BxShowAuthService('VKontakte', '')" id="bx_auth_href_VKontakte"><i class="bx-ss-icon vkontakte"></i> ВКонтакте</a>
+                            	<a class="btn btn-default margin-b-10" href="javascript:void(0)" onclick="BxShowAuthService('Facebook', '')" id="bx_auth_href_Facebook"><i class="bx-ss-icon facebook"></i> Facebook</a>
+                            	<a class="btn btn-default margin-b-10" href="javascript:void(0)" onclick="BxShowAuthService('MailRuOpenID', '')" id="bx_auth_href_MailRuOpenID"><i class="bx-ss-icon openid-mail-ru"></i> Mail.Ru</a>
+                            </div>
+                        </div-->
+                    </section>
+
+                    <!-- Востановление пароля -->
+                    <section class="hidden">
+                        <form>
+                            <legend>Востановление доступа</legend>
+                            <div class="alert alert-info" role="alert">
+                                <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> Для востановления доступа, введите <b>Логин</b> или адрес электронной почты <b>E-Mail</b>, на которые будут высланы инструкции для смены пароля и ваши регистрационные данные.
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="col-sm-2 control-label text-right padding-r-0">Логин</label>
+                                <div class="col-sm-10 margin-b-10">
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="col-sm-2 control-label text-right padding-r-0">E-Mail</label>
+                                <div class="col-sm-10 margin-b-10">
+                                    <input type="email" class="form-control">
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-default">Выслать</button>
+                            </div>
+                        </form>
+                        <div class="row margin-b-10">
+                            <hr>
+                            <div class="col-sm-12 col-md-6 text-left">
+                                <a href="#" class="btn btn-default btn-sm margin-b-10">Авторизация</a>
+                            </div>
+                            <div class="col-sm-12 col-md-6 text-right">
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Регистрация -->
+                    <section class="hidden">
+                        <form>
+                            <legend>Регистрация</legend>
+                            <div class="alert alert-info" role="alert">
+                                <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> Поля обязательные к заполнению отмечены символом <b>*</b>
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="col-sm-2 control-label text-right padding-r-0">Имя</label>
+                                <div class="col-sm-10 margin-b-10">
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="col-sm-2 control-label text-right padding-r-0">Фамилия</label>
+                                <div class="col-sm-10 margin-b-10">
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="col-sm-2 control-label text-right padding-r-0">* E-Mail</label>
+                                <div class="col-sm-10 margin-b-10">
+                                    <input type="email" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="col-sm-2 control-label text-right padding-r-0">* Логин</label>
+                                <div class="col-sm-10 margin-b-10">
+                                    <input type="text" class="form-control">
+                                    <span class="text-info">
+                                        <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> Логин должен быть не менее 3 символов длиной.
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="col-sm-2 control-label text-right padding-r-0">* Пароль</label>
+                                <div class="col-sm-10 margin-b-10">
+                                    <input type="password" class="form-control">
+                                    <span class="text-info">
+                                        <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> Пароль должен быть не менее 6 символов длиной.
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-2 control-label"></div>
+                                <div class="col-sm-10 margin-b-10">
+                                    <label for="" class="control-label text-right padding-r-0">* Подтверждение пароля</label>
+                                    <input type="password" class="form-control">
+                                </div>
+                            </div>
+                            <big>Защита от автоматической регистрации</big>
+                            <hr class="margin-t-0 margin-b-10">
+                            <div class="row margin-l-0 margin-r-0">
+                                <div class="col-sm-6">
+                                    <br>
+                                    <img class="margin-b-10" src="https://www.telecamera.ru/bitrix/tools/captcha.php?captcha_sid=06054d7b8fbd826f32d40d1abc6f1e53" alt="">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="" class="padding-r-0">* Введите слово на картинке</label>
+                                    <div class="margin-b-10">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-default">Зарегистрироваться</button>
+                            </div>
+                        </form>
+                        <div class="row margin-b-10">
+                            <hr>
+                            <div class="col-sm-12 col-md-6 text-left">
+                                <a href="#" class="btn btn-default btn-sm margin-b-10">Авторизация</a>
+                            </div>
+                            <div class="col-sm-12 col-md-6 text-right">
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
